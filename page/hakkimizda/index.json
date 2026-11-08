@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "8oqdr5",
+      "7v4ne3"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Gebelik ve doğum; görseller temsilîdir.",
+    "en": "Pregnancy and birth; images are representative.",
+    "ar": "حمل وولادة؛ الصور تمثيلية."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-05T23:44:34.359Z",
+  "date": "2026-10-30"
+}
