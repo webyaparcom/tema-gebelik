@@ -1,0 +1,40 @@
+{
+  "id": "qxnigj2n7p",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Randevudan sonuç takibine.",
+    "en": "From appointment to result tracking.",
+    "ar": "من الموعد إلى تتبع النتيجة."
+  },
+  "keyword": {
+    "tr": "Sağlık",
+    "en": "The health",
+    "ar": "الصحة"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "uhus2t",
+      "ch9c0l"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:34.427Z",
+  "update": "2026-11-05T23:44:34.356Z"
+}
