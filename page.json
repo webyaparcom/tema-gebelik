@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Randevudan sonuç takibine.",
-        "en": "From appointment to result tracking.",
-        "ar": "من الموعد إلى تتبع النتيجة."
+        "tr": "Gebeliğin her döneminde bilgilendirme, hazırlık ve doğum sonrası destek.",
+        "en": "Information, preparation and postnatal support at every stage of pregnancy.",
+        "ar": "معلومات وتحضير ودعم بعد الولادة في كل مراحل الحمل."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Gebelik ve doğum; görseller temsilîdir.",
-        "en": "Pregnancy and birth; images are representative.",
-        "ar": "حمل وولادة؛ الصور تمثيلية."
+        "tr": "Gebelik ve doğum hazırlık merkezi; görseller temsilîdir.",
+        "en": "Pregnancy and birth preparation centre; images are representative.",
+        "ar": "مركز حمل وتحضير للولادة؛ الصور تمثيلية."
       }
     },
     {

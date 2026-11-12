@@ -776,7 +776,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1488,9 +1493,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu iste",
+          "en": "Book an appointment",
+          "ar": "احجزي موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1532,7 +1537,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "klinik-tedavi-1.webp",
+        "img": "klinik-bekleme.webp",
         "video": "",
         "poster": "",
         "alt": "Anne Kısım",
@@ -1543,30 +1548,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Anne & bebek",
+          "tr": "Anne ve bebek",
           "en": "Mother & baby",
-          "ar": "أم وطفل"
+          "ar": "الأم والطفل"
         },
         "title": {
-          "tr": "Kısım boyunca yanında",
-          "en": "Beside you throughout the process",
-          "ar": "معكم طوال العملية"
+          "tr": "Gebelikte ve doğumda yanınızdayız",
+          "en": "By your side in pregnancy and birth",
+          "ar": "بجانبكم في الحمل والولادة"
         },
         "metin": {
-          "tr": "Anne Kısım, kontrol ve doğum kursu sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Anne offers followup and birth course. Images are representative and text is fictional.",
-          "ar": "يقدم أم متابعة ودورة ولادة. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Gebelik takibi, doğum hazırlık kursu ve emzirme danışmanlığı; sakin bir ortamda, sorularınıza zaman ayırarak. Görseller temsilîdir.",
+          "en": "Pregnancy follow-up, birth preparation classes and breastfeeding support in a calm setting, with time for your questions. Images are representative.",
+          "ar": "متابعة الحمل ودورات التحضير للولادة واستشارات الرضاعة في أجواء هادئة مع وقت كافٍ لأسئلتكم. الصور تمثيلية."
         },
         "cta1": {
-          "tr": "Kısım programı",
-          "en": "Program",
-          "ar": "برنامج"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Randevu iste",
-          "en": "Book",
-          "ar": "احجز"
+          "en": "Book an appointment",
+          "ar": "احجزي موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1611,9 +1616,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Nasıl destek oluyoruz?",
+          "en": "How do we support you?",
+          "ar": "كيف ندعمكم؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1623,13 +1628,28 @@
       },
       "data": [
         {
-          "deger": 10,
+          "deger": 200,
+          "sonek": "+",
+          "ikon": "family_restroom",
+          "etiket": {
+            "tr": "Eğitime katılan aile",
+            "en": "Families in classes",
+            "ar": "أسرة شاركت في الدورات"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 8,
           "sonek": "",
-          "ikon": "monitoring",
+          "ikon": "event_repeat",
           "etiket": {
-            "tr": "Uzman branşı",
-            "en": "Specialist branch",
-            "ar": "فرع متخصص"
+            "tr": "Haftalık grup",
+            "en": "Weekly groups",
+            "ar": "مجموعة أسبوعية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1638,43 +1658,28 @@
           }
         },
         {
-          "deger": 40,
-          "sonek": " dk",
-          "ikon": "schedule",
-          "etiket": {
-            "tr": "Tanı süresi",
-            "en": "Diagnosis time",
-            "ar": "زمن التشخيص"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 96,
-          "sonek": "%",
-          "ikon": "verified",
-          "etiket": {
-            "tr": "Numune doğruluğu",
-            "en": "Sample accuracy",
-            "ar": "دقة العينة"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 7,
+          "deger": 6,
           "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Saha personeli",
-            "en": "Field staff",
-            "ar": "طاقم الميدان"
+            "tr": "Uzman ekip",
+            "en": "Specialist team",
+            "ar": "فريق متخصص"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 4,
+          "sonek": "",
+          "ikon": "menu_book",
+          "etiket": {
+            "tr": "Eğitim modülü",
+            "en": "Class modules",
+            "ar": "وحدة تدريبية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1705,98 +1710,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Sağlık",
-          "en": "The health",
-          "ar": "الصحة"
+          "tr": "Gebelik ve doğum",
+          "en": "Pregnancy & birth",
+          "ar": "الحمل والولادة"
         },
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Nasıl destek oluyoruz?",
+          "en": "How do we support you?",
+          "ar": "كيف ندعمكم؟"
         },
         "description": {
-          "tr": "Randevudan sonuç takibine.",
-          "en": "From appointment to result tracking.",
-          "ar": "من الموعد إلى تتبع النتيجة."
+          "tr": "Gebeliğin her döneminde bilgilendirme, hazırlık ve doğum sonrası destek.",
+          "en": "Information, preparation and postnatal support at every stage of pregnancy.",
+          "ar": "معلومات وتحضير ودعم بعد الولادة في كل مراحل الحمل."
         }
       },
       "data": [
         {
-          "icon": "monitoring",
+          "icon": "pregnant_woman",
           "name": {
-            "tr": "Poliklinik",
-            "en": "Polyclinic",
-            "ar": "العيادات"
+            "tr": "Gebelik takibi",
+            "en": "Pregnancy follow-up",
+            "ar": "متابعة الحمل"
           },
           "description": {
-            "tr": "Randevu ve triyaj akışı.",
-            "en": "Appointment and triage flow.",
-            "ar": "مسار المواعيد والتوجيه."
+            "tr": "Hekim ve ebe eşliğinde düzenli kontrol randevuları.",
+            "en": "Regular check-up appointments with a doctor and midwife.",
+            "ar": "مواعيد فحص منتظمة مع الطبيب والقابلة."
           }
         },
         {
-          "icon": "biotech",
+          "icon": "school",
           "name": {
-            "tr": "Laboratuvar",
-            "en": "Laboratory",
-            "ar": "المختبر"
+            "tr": "Doğum hazırlık kursu",
+            "en": "Birth preparation class",
+            "ar": "دورة التحضير للولادة"
           },
           "description": {
-            "tr": "Numune ve sonuç takibi.",
-            "en": "Sample and result tracking.",
-            "ar": "تتبع العينة والنتيجة."
+            "tr": "Doğum süreci, nefes ve pozisyon çalışması; eşler de katılabilir.",
+            "en": "The birth process, breathing and positions; partners can join.",
+            "ar": "مراحل الولادة والتنفس والأوضاع؛ ويمكن للأزواج الانضمام."
           }
         },
         {
-          "icon": "local_hospital",
+          "icon": "child_friendly",
           "name": {
-            "tr": "Radyoloji",
-            "en": "Radiology",
-            "ar": "الأشعة"
+            "tr": "Emzirme danışmanlığı",
+            "en": "Breastfeeding support",
+            "ar": "استشارات الرضاعة"
           },
           "description": {
-            "tr": "Görüntüleme randevusu.",
-            "en": "Imaging appointment.",
-            "ar": "موعد تصوير."
+            "tr": "Emzirme tekniği ve ilk haftalar için birebir destek.",
+            "en": "One-to-one help with technique and the first weeks.",
+            "ar": "دعم فردي لأسلوب الرضاعة والأسابيع الأولى."
           }
         },
         {
-          "icon": "medical_information",
+          "icon": "self_improvement",
           "name": {
-            "tr": "Uzaktan takip",
-            "en": "Remote follow-up",
-            "ar": "متابعة عن بُعد"
+            "tr": "Hamile pilatesi ve nefes",
+            "en": "Prenatal pilates & breathing",
+            "ar": "بيلاتس الحوامل والتنفس"
           },
           "description": {
-            "tr": "Yeni randevu ve yönlendirme.",
-            "en": "New appointment and referral.",
-            "ar": "موعد جديد وإحالة."
+            "tr": "Hekim onayıyla hafif egzersiz ve nefes çalışması.",
+            "en": "Gentle exercise and breathing work with your doctor’s approval.",
+            "ar": "تمارين خفيفة وتنفس بموافقة الطبيب."
           }
         },
         {
-          "icon": "healing",
+          "icon": "baby_changing_station",
           "name": {
-            "tr": "Tedavi",
-            "en": "Treatment",
-            "ar": "العلاج"
+            "tr": "Bebek bakımı eğitimi",
+            "en": "Baby care workshop",
+            "ar": "ورشة رعاية الرضيع"
           },
           "description": {
-            "tr": "Kısa süreli tedavi planı.",
-            "en": "Short-term treatment plan.",
-            "ar": "خطة علاج قصيرة المدة."
+            "tr": "Banyo, uyku düzeni ve temel bakım uygulamaları.",
+            "en": "Bathing, sleep routines and everyday care, hands-on.",
+            "ar": "الاستحمام ونظام النوم والرعاية الأساسية عمليًا."
           }
         },
         {
-          "icon": "first_aid",
+          "icon": "volunteer_activism",
           "name": {
-            "tr": "Acil yönlendirme",
-            "en": "Emergency referral",
-            "ar": "إحالة الطوارئ"
+            "tr": "Doğum sonrası destek",
+            "en": "Postnatal support",
+            "ar": "الدعم بعد الولادة"
           },
           "description": {
-            "tr": "112 ile koordinasyon (demo metin).",
-            "en": "Coordination with 112 (demo text).",
-            "ar": "تنسيق مع ١١٢ (نص تجريبي)."
+            "tr": "Lohusalık döneminde kontrol ve danışmanlık görüşmeleri.",
+            "en": "Check-ins and counselling during the postnatal weeks.",
+            "ar": "متابعة وجلسات استشارية خلال فترة النفاس."
           }
         }
       ],
@@ -1824,19 +1829,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl ilerliyoruz?",
+          "en": "How it works",
+          "ar": "كيف نسير؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda doğuma hazırlık",
+          "en": "Four steps to birth preparation",
+          "ar": "أربع خطوات للتحضير للولادة"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "İlk görüşmeden doğum sonrası takibe.",
+          "en": "From the first visit to postnatal follow-up.",
+          "ar": "من الزيارة الأولى إلى المتابعة بعد الولادة."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1846,53 +1851,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kayıt",
-            "en": "Registration",
-            "ar": "التسجيل"
+            "tr": "İlk görüşme",
+            "en": "First visit",
+            "ar": "الزيارة الأولى"
           },
           "text": {
-            "tr": "Kimlik ve şikayet notu.",
-            "en": "Identity and complaint note.",
-            "ar": "ملاحظة الهوية والشكوى."
+            "tr": "Gebelik haftası ve beklentileriniz dinlenir.",
+            "en": "We listen to your week of pregnancy and expectations.",
+            "ar": "نستمع إلى أسبوع الحمل وتوقعاتكم."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Muayene",
-            "en": "Examination",
-            "ar": "الفرز والفحص"
+            "tr": "Plan",
+            "en": "Plan",
+            "ar": "الخطة"
           },
           "text": {
-            "tr": "Fizik muayene ve triyaj.",
-            "en": "Physical examination and triage.",
-            "ar": "فحص بدني وتوجيه."
+            "tr": "Kontrol ve eğitim takvimi birlikte hazırlanır.",
+            "en": "A check-up and class schedule is prepared together.",
+            "ar": "نُعدّ معًا جدول الفحوصات والدورات."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Tetkik",
-            "en": "Test",
-            "ar": "الامتحان"
+            "tr": "Hazırlık",
+            "en": "Preparation",
+            "ar": "التحضير"
           },
           "text": {
-            "tr": "Kan veya görüntüleme isteği.",
-            "en": "Blood or imaging request.",
-            "ar": "طلب دم أو تصوير."
+            "tr": "Doğum hazırlık dersleri ve egzersiz grupları.",
+            "en": "Birth preparation classes and exercise groups.",
+            "ar": "دروس التحضير للولادة ومجموعات التمارين."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Tespit",
-            "en": "Diagnosis",
-            "ar": "التشخيص"
+            "tr": "Doğum sonrası",
+            "en": "After birth",
+            "ar": "بعد الولادة"
           },
           "text": {
-            "tr": "Sonuç görüşü ve plan.",
-            "en": "Result discussion and plan.",
-            "ar": "مناقشة النتيجة والخطة."
+            "tr": "Emzirme ve bebek bakımı için takip görüşmeleri.",
+            "en": "Follow-up visits for breastfeeding and baby care.",
+            "ar": "زيارات متابعة للرضاعة ورعاية الرضيع."
           }
         }
       ],
@@ -1921,14 +1926,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Uzman ekip",
+          "en": "Our specialists",
+          "ar": "فريقنا المتخصص"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Size eşlik edenler",
+          "en": "Who will be with you",
+          "ar": "من سيرافقكم"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1942,42 +1947,42 @@
         {
           "name": "Dr. Elif K.",
           "role": {
-            "tr": "Klinisyen",
-            "en": "Clinician",
-            "ar": "طبيب"
+            "tr": "Kadın doğum hekimi",
+            "en": "Obstetrician",
+            "ar": "طبيبة نساء وولادة"
           },
           "bio": {
-            "tr": "9 yıl kliniği.",
-            "en": "9 years of clinic.",
-            "ar": "٩ سنوات في العيادة."
+            "tr": "Gebelik takibi ve doğum hazırlıkta 9 yıl.",
+            "en": "9 years in pregnancy care and birth preparation.",
+            "ar": "9 سنوات في متابعة الحمل والتحضير للولادة."
           },
           "img": ""
         },
         {
-          "name": "Arif S.",
+          "name": "Hatice S.",
           "role": {
-            "tr": "Laborant",
-            "en": "Lab technician",
-            "ar": "فني المختبر"
+            "tr": "Ebe",
+            "en": "Midwife",
+            "ar": "قابلة"
           },
           "bio": {
-            "tr": "6 yıl numune.",
-            "en": "6 years of samples.",
-            "ar": "٦ سنوات في العينات."
+            "tr": "Doğum ve lohusalık desteğinde 12 yıl.",
+            "en": "12 years in birth and postnatal support.",
+            "ar": "12 عامًا في دعم الولادة وفترة النفاس."
           },
           "img": ""
         },
         {
           "name": "Merve T.",
           "role": {
-            "tr": "Sekreter",
-            "en": "Medical secretary",
-            "ar": "سكرتير"
+            "tr": "Emzirme danışmanı",
+            "en": "Lactation consultant",
+            "ar": "مستشارة رضاعة"
           },
           "bio": {
-            "tr": "4 yıl randevu.",
-            "en": "4 years of appointments.",
-            "ar": "٤ سنوات في المواعيد."
+            "tr": "Emzirme ve bebek bakımı eğitiminde 6 yıl.",
+            "en": "6 years teaching breastfeeding and baby care.",
+            "ar": "6 سنوات في تدريب الرضاعة ورعاية الرضيع."
           },
           "img": ""
         }
@@ -2008,14 +2013,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Aileler ne diyor?",
+          "en": "What families say",
+          "ar": "ماذا تقول العائلات؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2029,46 +2034,46 @@
         {
           "name": "Selin B.",
           "role": {
-            "tr": "Hasta",
-            "en": "Patient",
-            "ar": "مرضى"
+            "tr": "Anne adayı",
+            "en": "Expectant mother",
+            "ar": "أم حامل"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Randevu dakik; açıklama net.",
-            "en": "Appointment on time; clear explanation.",
-            "ar": "موعد في الوقت؛ الشرح واضح."
+            "tr": "Kurs sayesinde doğuma daha hazır hissettim; sorularıma sabırla yanıt verildi.",
+            "en": "The class left me feeling more prepared for birth; my questions were answered patiently.",
+            "ar": "جعلتني الدورة أشعر بجاهزية أكبر للولادة، وأُجيب عن أسئلتي بصبر."
           }
         },
         {
           "name": "Osman D.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Baba adayı",
+            "en": "Expectant father",
+            "ar": "أب منتظر"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sonuç süresi bilgilendirildi.",
-            "en": "Result time was communicated.",
-            "ar": "تم إخطار وقت النتيجة."
+            "tr": "Eşimle birlikte katıldık; nefes ve pozisyon çalışması çok faydalıydı.",
+            "en": "We joined together; the breathing and position practice was very useful.",
+            "ar": "شاركنا معًا وكان تدريب التنفس والأوضاع مفيدًا جدًا."
           }
         },
         {
-          "name": "Y. Karaca.",
+          "name": "Y. Karaca",
           "role": {
-            "tr": "Hasta yakını",
-            "en": "Patient’s relative",
-            "ar": "مزور المريضة"
+            "tr": "Yeni anne",
+            "en": "New mother",
+            "ar": "أم جديدة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Kayanım açık; süreç şeffaf.",
-            "en": "The waiting is clear; the process is transparent.",
-            "ar": "الانتظار واضح؛ العملية شفافة."
+            "tr": "Emzirme danışmanlığı ilk haftalarda çok rahatlattı.",
+            "en": "Breastfeeding support was a great relief in the first weeks.",
+            "ar": "ارتحتُ كثيرًا بفضل استشارات الرضاعة في الأسابيع الأولى."
           }
         }
       ],
@@ -2113,19 +2118,19 @@
         "radius": "10px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Merkezimizde neler var?",
+          "en": "Inside our centre",
+          "ar": "ماذا في مركزنا؟"
         },
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Nasıl destek oluyoruz?",
+          "en": "How do we support you?",
+          "ar": "كيف ندعمكم؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2136,33 +2141,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Poliklinik",
-            "en": "Polyclinic",
-            "ar": "العيادات"
+            "tr": "Gebelik takibi",
+            "en": "Pregnancy follow-up",
+            "ar": "متابعة الحمل"
           },
           "metin": {
-            "tr": "Randevu ve triyaj akışı.",
-            "en": "Appointment and triage flow.",
-            "ar": "مسار المواعيد والتوجيه."
-          },
-          "img": "klinik-bekleme.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Laboratuvar",
-            "en": "Laboratory",
-            "ar": "المختبر"
-          },
-          "metin": {
-            "tr": "Numune ve sonuç takibi.",
-            "en": "Sample and result tracking.",
-            "ar": "تتبع العينة والنتيجة."
+            "tr": "Hekim ve ebe eşliğinde düzenli kontrol randevuları.",
+            "en": "Regular check-up appointments with a doctor and midwife.",
+            "ar": "مواعيد فحص منتظمة مع الطبيب والقابلة."
           },
           "img": "klinik-klinik-oda.webp",
           "alt": {
@@ -2174,16 +2160,35 @@
         },
         {
           "baslik": {
-            "tr": "Radyoloji",
-            "en": "Radiology",
-            "ar": "الأشعة"
+            "tr": "Doğum hazırlık kursu",
+            "en": "Birth preparation class",
+            "ar": "دورة التحضير للولادة"
           },
           "metin": {
-            "tr": "Görüntüleme randevusu.",
-            "en": "Imaging appointment.",
-            "ar": "موعد تصوير."
+            "tr": "Doğum süreci, nefes ve pozisyon çalışması; eşler de katılabilir.",
+            "en": "The birth process, breathing and positions; partners can join.",
+            "ar": "مراحل الولادة والتنفس والأوضاع؛ ويمكن للأزواج الانضمام."
           },
-          "img": "klinik-hekim-eli.webp",
+          "img": "klinik-tedavi-2.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Emzirme danışmanlığı",
+            "en": "Breastfeeding support",
+            "ar": "استشارات الرضاعة"
+          },
+          "metin": {
+            "tr": "Emzirme tekniği ve ilk haftalar için birebir destek.",
+            "en": "One-to-one help with technique and the first weeks.",
+            "ar": "دعم فردي لأسلوب الرضاعة والأسابيع الأولى."
+          },
+          "img": "klinik-tedavi-3.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2239,14 +2244,14 @@
         "radius": "10px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
+          "tr": "İş birliği yaptığımız kurumlar",
           "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "ar": "جهات نتعاون معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal kurum adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional organisation names; they do not belong to a real organisation.",
+          "ar": "أسماء جهات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2256,22 +2261,22 @@
       },
       "data": [
         {
+          "name": "Demo Kadın Doğum Kliniği"
+        },
+        {
+          "name": "Demo Aile Merkezi"
+        },
+        {
+          "name": "Demo Bebek Evi"
+        },
+        {
           "name": "Demo Eczane"
         },
         {
-          "name": "Demo Laboratuvar"
+          "name": "Demo Sağlık Derneği"
         },
         {
-          "name": "Demo Ekipman"
-        },
-        {
-          "name": "Demo Dernek"
-        },
-        {
-          "name": "Demo Hastane"
-        },
-        {
-          "name": "Demo Dernek"
+          "name": "Demo Pilates Stüdyosu"
         }
       ],
       "veri": {
@@ -2314,51 +2319,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Doğum hazırlık kursuna kaçıncı haftada başlanır?",
+            "en": "When in pregnancy should I start the birth class?",
+            "ar": "متى أبدأ دورة التحضير للولادة؟"
+          },
+          "answer": {
+            "tr": "Genellikle gebeliğin ikinci yarısında başlanır; hekiminize danışarak karar verin.",
+            "en": "It usually starts in the second half of pregnancy; decide together with your doctor.",
+            "ar": "تبدأ عادةً في النصف الثاني من الحمل؛ استشيري طبيبكِ قبل القرار."
+          },
           "soru": {
-            "tr": "Tahlil sonucu ne kadar?",
-            "en": "How long for the test result?",
-            "ar": "كم تستغرق النتيجة?"
+            "tr": "Doğum hazırlık kursuna kaçıncı haftada başlanır?",
+            "en": "When in pregnancy should I start the birth class?",
+            "ar": "متى أبدأ دورة التحضير للولادة؟"
           },
           "cevap": {
-            "tr": "Test tipine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by test type; this demo text gives no example.",
-            "ar": "تتغير حسب نوع الفحص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Genellikle gebeliğin ikinci yarısında başlanır; hekiminize danışarak karar verin.",
+            "en": "It usually starts in the second half of pregnancy; decide together with your doctor.",
+            "ar": "تبدأ عادةً في النصف الثاني من الحمل؛ استشيري طبيبكِ قبل القرار."
           }
         },
         {
+          "question": {
+            "tr": "Acil bir durumda ne yapmalıyım?",
+            "en": "What should I do in an emergency?",
+            "ar": "ماذا أفعل في حالة طارئة؟"
+          },
+          "answer": {
+            "tr": "Kanama, şiddetli ağrı ya da bebek hareketlerinde azalma gibi durumlarda 112’yi arayın veya en yakın acile gidin; bu site acil hat değildir.",
+            "en": "In case of bleeding, severe pain or reduced baby movements call 112 or go to the nearest emergency room; this site is not an emergency line.",
+            "ar": "عند النزيف أو الألم الشديد أو انخفاض حركة الجنين اتصلي بـ 112 أو توجهي لأقرب طوارئ؛ هذا الموقع ليس خط طوارئ."
+          },
           "soru": {
-            "tr": "Acil durum için neredeyim?",
-            "en": "Where should I go in an emergency?",
-            "ar": "أين أذهب في الطوارئ?"
+            "tr": "Acil bir durumda ne yapmalıyım?",
+            "en": "What should I do in an emergency?",
+            "ar": "ماذا أفعل في حالة طارئة؟"
           },
           "cevap": {
-            "tr": "Önce 112; kurum yönlendirmesi demo metindir.",
-            "en": "First 112; the institution’s referral is a demo text.",
-            "ar": "١١٢ أولاً؛ إحالة المؤسسة نص تجريبي."
+            "tr": "Kanama, şiddetli ağrı ya da bebek hareketlerinde azalma gibi durumlarda 112’yi arayın veya en yakın acile gidin; bu site acil hat değildir.",
+            "en": "In case of bleeding, severe pain or reduced baby movements call 112 or go to the nearest emergency room; this site is not an emergency line.",
+            "ar": "عند النزيف أو الألم الشديد أو انخفاض حركة الجنين اتصلي بـ 112 أو توجهي لأقرب طوارئ؛ هذا الموقع ليس خط طوارئ."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Kurs ve randevu türüne göre belirlenir; güncel bilgi için bizimle iletişime geçin.",
+            "en": "Prices depend on the class or appointment type; contact us for current rates.",
+            "ar": "تعتمد الأسعار على نوع الدورة أو الموعد؛ تواصلوا معنا للأسعار الحالية."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Kurs ve randevu türüne göre belirlenir; güncel bilgi için bizimle iletişime geçin.",
+            "en": "Prices depend on the class or appointment type; contact us for current rates.",
+            "ar": "تعتمد الأسعار على نوع الدورة أو الموعد؛ تواصلوا معنا للأسعار الحالية."
           }
         }
       ],
@@ -2416,14 +2461,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "10px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request an appointment",
+          "ar": "اطلبي موعدًا"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Acil durumlarda 112’yi arayın. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Leave your details; we reply within two business days. In an emergency call 112. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اتركي بياناتك؛ نردّ خلال يومي عمل على الأكثر. في الحالات الطارئة اتصلي بـ 112. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Anne Kısım",
@@ -2431,14 +2476,14 @@
           "ar": "Anne Kısım"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "address": {
           "tr": "Umut Sokak No: 21, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "21 Hope Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع أمل رقم 21، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الأمل رقم 21، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 025 01 03",
         "whatsapp": "903420250103",
@@ -2487,9 +2532,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Appointment form",
+          "ar": "نموذج الموعد"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2520,25 +2565,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Gebelik takibi",
+              "en": "Pregnancy follow-up",
+              "ar": "متابعة الحمل"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Doğum hazırlık kursu",
+              "en": "Birth preparation class",
+              "ar": "دورة التحضير للولادة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Emzirme danışmanlığı",
+              "en": "Breastfeeding support",
+              "ar": "استشارات الرضاعة"
             }
           },
           {
@@ -2625,7 +2670,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2649,33 +2695,33 @@
           "ar": "Anne Kısım"
         },
         "description": {
-          "tr": "Anne Kısım, kontrol ve doğum kursu sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Anne offers followup and birth course. Images are representative and text is fictional.",
-          "ar": "يقدم أم متابعة ودورة ولادة. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Anne Kısım; gebelik takibi, doğum hazırlık kursu ve emzirme danışmanlığı sunan bir anne-bebek merkezidir. Bilgilendirme amaçlıdır; hekim kontrolünün yerini tutmaz. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Anne Kısım is a mother-and-baby centre offering pregnancy follow-up, birth preparation classes and breastfeeding support. Information is for guidance only and does not replace medical care. Images are representative; the text is fictional.",
+          "ar": "أم كيسم مركز للأم والطفل يقدّم متابعة الحمل ودورات التحضير للولادة واستشارات الرضاعة. المعلومات للإرشاد فقط ولا تغني عن الرعاية الطبية. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Tek kat",
-          "en": "One floor",
-          "ar": "طابق واحد"
+          "tr": "Sakin bekleme alanı",
+          "en": "Calm waiting area",
+          "ar": "منطقة انتظار هادئة"
         },
         "spot2": {
-          "tr": "Kayıttan çıkanma aynı binada.",
-          "en": "From registration through departure in the same building.",
-          "ar": "من التسجيل إلى الخروج في نفس المبنى."
+          "tr": "Randevu öncesi rahat oturma ve su köşesi.",
+          "en": "Comfortable seating and a water corner before appointments.",
+          "ar": "جلوس مريح وركن ماء قبل المواعيد."
         },
-        "icon2": "verified",
+        "icon2": "weekend",
         "name3": {
-          "tr": "Kayıt defteri",
-          "en": "Record book",
-          "ar": "دفتر السجلات"
+          "tr": "Aile dostu eğitim",
+          "en": "Family-friendly classes",
+          "ar": "دورات مناسبة للعائلة"
         },
         "spot3": {
-          "tr": "Her süreç kayıt altında; hasta onayıyla.",
-          "en": "Every process is under record; with patient consent.",
-          "ar": "كل العملية تحت السجل؛ بموافقة المريض."
+          "tr": "Eşler ve aile yakınları derslere katılabilir.",
+          "en": "Partners and relatives can join the classes.",
+          "ar": "يمكن للأزواج والأقارب حضور الدروس."
         },
-        "icon3": "schedule",
-        "img": "klinik-tedavi-3.webp",
+        "icon3": "diversity_1",
+        "img": "klinik-hero-resepsiyon.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2749,7 +2795,7 @@
         "address": {
           "tr": "Umut Sokak No: 21, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "21 Hope Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع أمل رقم 21، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الأمل رقم 21، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2763,9 +2809,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 09:00 – 19:00",
+          "en": "Every day 09:00 – 19:00",
+          "ar": "كل يوم 09:00 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2857,25 +2903,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "10px",
         "title": {
-          "tr": "Kısım boyunca birlikte",
-          "en": "Together throughout the process",
-          "ar": "معًا طوال العملية"
+          "tr": "Sorularınız için buradayız",
+          "en": "We are here for your questions",
+          "ar": "نحن هنا لأسئلتكم"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Randevu için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form to book; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املئي النموذج لحجز موعد؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Randevu iste",
+          "en": "Book an appointment",
+          "ar": "احجزي موعدًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
           "tr": "Hizmetleri gör",
           "en": "See services",
-          "ar": "شاهد الخدمات"
+          "ar": "شاهدي الخدمات"
         },
         "btn2Url": "hizmetler",
         "number": "903420250103",
@@ -3066,7 +3112,7 @@
         "address": {
           "tr": "Umut Sokak No: 21, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "21 Hope Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع أمل رقم 21، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الأمل رقم 21، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 025 01 03",
         "email": "danisman@anne.example",

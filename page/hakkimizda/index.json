@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Gebelik ve doğum; görseller temsilîdir.",
-    "en": "Pregnancy and birth; images are representative.",
-    "ar": "حمل وولادة؛ الصور تمثيلية."
+    "tr": "Gebelik ve doğum hazırlık merkezi; görseller temsilîdir.",
+    "en": "Pregnancy and birth preparation centre; images are representative.",
+    "ar": "مركز حمل وتحضير للولادة؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:34.359Z",
+  "update": "2026-11-12T07:35:48.089Z",
   "date": "2026-10-30"
 }

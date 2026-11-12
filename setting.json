@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Gebelik ve doğum; görseller temsilîdir.",
-    "en": "Pregnancy and birth; images are representative.",
-    "ar": "حمل وولادة؛ الصور تمثيلية."
+    "tr": "Gebelik takibi, doğum hazırlık kursu ve emzirme danışmanlığı; görseller temsilîdir.",
+    "en": "Pregnancy follow-up, birth preparation classes and breastfeeding support; images are representative.",
+    "ar": "متابعة الحمل ودورات التحضير للولادة واستشارات الرضاعة؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "anne, doğum, gebelik",
-    "en": "mother, birth, pregnancy",
-    "ar": "أم، ولادة، حمل"
+    "tr": "gebelik, doğum hazırlık, emzirme, hamile pilatesi, bebek bakımı",
+    "en": "pregnancy, birth preparation, breastfeeding, prenatal pilates, baby care",
+    "ar": "حمل، تحضير للولادة، رضاعة، بيلاتس الحوامل، رعاية الرضيع"
   },
   "category": "Kurumsal",
   "name": "Anne Kısım",
