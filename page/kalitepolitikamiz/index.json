@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Net metin, ölçülü veri ve kayıt kültürü esastır.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Clear text, measured data and a record culture are essential.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>النص الواضح والبيانات المتوازنة وثقافة السجل أساسية.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Bilgilendirme hekim kontrolünün yerini tutmaz; kişisel sağlık verileri gizli tutulur ve yalnızca randevu amacıyla kullanılır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Information does not replace medical care; personal health data is kept confidential and used only for appointments.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>المعلومات لا تغني عن الرعاية الطبية؛ تُحفظ البيانات الصحية الشخصية بسرية ولا تُستخدم إلا للمواعيد.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:21.574Z",
-  "update": "2026-11-05T23:44:34.379Z",
+  "update": "2026-11-12T07:35:48.114Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

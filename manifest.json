@@ -1,7 +1,7 @@
 {
   "name": "Anne Kısım",
   "short_name": "Anne Kısım",
-  "description": "Gebelik ve doğum; görseller temsilîdir.",
+  "description": "Gebelik takibi, doğum hazırlık kursu ve emzirme danışmanlığı; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
